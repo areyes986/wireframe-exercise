@@ -4,7 +4,6 @@ nav {
 }
 
 main {
-    /* width: 960px; */
     text-align: center;
     margin: auto;
     margin-top: 20px;
@@ -35,7 +34,7 @@ main > section {
 }
 
 
-main > p {
+main > figure {
     background-color:black;
     display: inline-block;
     width: 300px;
@@ -45,24 +44,22 @@ main > p {
     margin:13px;
 }
 
-main > article > div {
+
+main > span > figure {
+    display: inline-block;
     margin-top:30px;
     background-color: black;
-    display: inline-block;
     margin-left: 0px;
     width: 480px;
     height: 400px;
 }
 
-main > article > span > article {
-    background-color: white;
-    margin-top:30px;
-    display: inline-block;
-    width: 480px;
-    height: 350px;
-    overflow: scroll;
-}
 
-main > article > span > p {
-    height: 10px;
+main > span > article > p {
+    display: inline-block;
+    border: solid black;
+    background-color: white;
+    width: 480px;
+    height: 400px;
+    overflow: scroll;
 }
